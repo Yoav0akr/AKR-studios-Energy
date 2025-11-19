@@ -226,15 +226,20 @@ hr {
     background: #414141;
     color: #9d9d9d;
     font-size: 12px;
-    padding: 35px 0;
+    padding: 35px 0;;
 }
 
 .footer-container {
+    padding: 1rem;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns:1fr;
     gap: 10px;
-    align-items: flex-start;
+    align-items: flex-start;;
     justify-content: center;
+}
+
+.footer-container a{
+    color: #1461dd;
 }
 
 .footer-container ul {
@@ -243,6 +248,9 @@ hr {
 
 .footer-container ul li {
     line-height: 2.8;
+}
+.wea{
+    font-size: 1.5rem;
 }
 
 .footer {
